@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: slategrey;
+}
+
+.logo > img {
+	width: 100px;
+	height: 100px;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+
+nav ul li {
+	padding: .5rem;
+}
+
+/* SECTION */
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 80vh;
+	background-color: lightgrey;
+}
+
+h1, h2 {
+	padding: 1rem;
+}
+section p {
+	padding: 2rem;
+}
+
+footer {
+	background-color: slategrey;
+	padding: 3rem;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
